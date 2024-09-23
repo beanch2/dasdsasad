@@ -8,7 +8,7 @@ local interval = 0.1
 local steps = duration / interval
 
 for i = 1, steps do
-    character.HumanoidRootPart.CFrame = character.HumanoidRootPart.CFrame * CFrame.new(0, 20, -3)
+    
     wait(interval)
 end
 
